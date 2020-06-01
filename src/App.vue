@@ -17,4 +17,7 @@ export default {
 
 <style lang="scss">
 @import "styles/index.scss";
+body {
+  font-family: "Inter", sans-serif;
+}
 </style>

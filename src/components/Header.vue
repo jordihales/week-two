@@ -1,6 +1,6 @@
 <template>
   <header class="py-6">
-    <div class="container max-w-screen-lg">
+    <div class="container max-w-screen-lg relative">
       <div class="flex items-center">
         <svg
           height="25"
@@ -38,7 +38,15 @@
             />
           </g>
         </svg>
-        <h2 class="text-md pl-4">Jordi Hales</h2>
+        <h2 class="text-sm pl-4">Jordi Hales</h2>
+        <div class="absolute right-0">
+          <ul class="flex font-light text-sm leading-tight text-primary items-center">
+            <li class="mr-4 py-2 px-4 rounded-md border-solid border border-gray-300 hover:text-black hover:border-black transition ease-in-out duration-300">Feedback</li>
+            <li class="mr-4 hover:text-black transition ease-in-out duration-300">Blog</li>
+            <li class="mr-4 hover:text-black transition ease-in-out duration-300">Support</li>
+            <li class="mr-4 hover:text-black transition ease-in-out duration-300">Docs</li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
