@@ -4,6 +4,7 @@
     <TopNav></TopNav>
     <Banner></Banner>
     <Projects></Projects>
+    <Footer></Footer>
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./components/Header.vue";
 import TopNav from "./components/TopNav.vue";
 import Banner from "./components/Banner.vue";
 import Projects from "./components/Projects.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -19,7 +21,8 @@ export default {
     Header,
     TopNav,
     Banner,
-    Projects
+    Projects,
+    Footer
   }
 };
 </script>
