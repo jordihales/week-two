@@ -6,7 +6,7 @@
           <div class="card bg-white rounded-md -mt-8">
             <div class="flex items-center relative">
               <h2 class="font-semibold text-xl p-6">project-one</h2>
-              <button class="text-sm absolute right-0 text-primary border-solid border-secondary border rounded-md px-4 py-1 mr-6">Visit</button>
+              <button class="text-sm absolute right-0 text-primary border-solid border-secondary border rounded-md hover:text-black hover:border-black transition ease-in-out duration-300 px-4 py-1 mr-6">Visit</button>
             </div>
             <div class="px-6 pb-4 flex items-center">
               <svg
@@ -76,7 +76,7 @@
           <div class="card bg-white rounded-md mt-12">
             <div class="flex items-center relative">
               <h2 class="font-semibold text-xl p-6">project-two</h2>
-              <button class="text-sm absolute right-0 text-primary border-solid border-secondary border rounded-md px-4 py-1 mr-6">Visit</button>
+              <button class="text-sm absolute right-0 text-primary border-solid border-secondary border rounded-md hover:text-black hover:border-black transition ease-in-out duration-300 px-4 py-1 mr-6">Visit</button>
             </div>
             <div class="px-6 pb-4 flex items-center">
               <svg
