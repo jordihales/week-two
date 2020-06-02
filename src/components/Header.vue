@@ -1,5 +1,5 @@
 <template>
-  <header class="py-6">
+  <header class="py-6 bg-white">
     <div class="container max-w-screen-lg relative">
       <div class="flex items-center">
         <svg

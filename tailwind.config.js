@@ -8,10 +8,11 @@ module.exports = {
         padding: '1rem',
       },
       colors: {
-        black: '#1a1a1a',
-        white: '#f7f7f7',
+        black: '#000',
+        white: '#fff',
         primary: '#666666',
         secondary: '#eaeaea',
+        body: '#fafafa',
       },
       fontSize: {
         '7xl': '6rem',

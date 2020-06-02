@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-64 border-solid border-b relative flex items-center">
+  <div class="w-full bg-white border-solid border-b relative flex items-center pt-16 pb-24">
     <div class="container flex max-w-screen-lg">
       <div class="w-1/2">
         <div class="flex items-center">

@@ -1,5 +1,5 @@
 <template>
-  <nav class="w-full border-solid border-b relative">
+  <nav class="w-full bg-white border-solid border-b relative">
     <div class="container max-w-screen-lg">
       <ul class="text-sm font-light text-primary flex items-center mb-4">
         <li class="active-item mr-6 hover:text-black transition ease-in-out duration-300"><a href="#">Overview</a></li>
