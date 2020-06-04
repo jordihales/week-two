@@ -39,12 +39,12 @@
           </g>
         </svg>
         <h2 class="text-sm pl-4">Jordi Hales</h2>
-        <div class="absolute right-0">
-          <ul class="flex font-light text-sm leading-tight text-primary items-center">
-            <li class="mr-4 py-2 px-4 rounded-md border-solid border border-gray-300 hover:text-black hover:border-black transition ease-in-out duration-300">Feedback</li>
-            <li class="mr-4 hover:text-black transition ease-in-out duration-300">Blog</li>
-            <li class="mr-4 hover:text-black transition ease-in-out duration-300">Support</li>
-            <li class="mr-4 hover:text-black transition ease-in-out duration-300">Docs</li>
+        <div class="absolute right-0 hidden md:block">
+          <ul class="flex space-x-4 font-light text-sm leading-tight text-primary items-center">
+            <li class="py-2 px-4 rounded-md border-solid border border-gray-300 hover:text-black hover:border-black transition ease-in-out duration-300">Feedback</li>
+            <li class="hover:text-black transition ease-in-out duration-300">Blog</li>
+            <li class="hover:text-black transition ease-in-out duration-300">Support</li>
+            <li class="hover:text-black transition ease-in-out duration-300">Docs</li>
           </ul>
         </div>
       </div>

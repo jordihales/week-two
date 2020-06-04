@@ -1,11 +1,10 @@
 <template>
-  <div class="w-full bg-white border-solid border-b relative flex items-center pt-16 pb-24">
-    <div class="container flex max-w-screen-lg">
-      <div class="w-1/2">
+  <div class="w-full bg-white border-solid border-b relative flex items-center pt-8 pb-16 md:pt-16 md:pb-24">
+    <div class="container flex flex-wrap max-w-screen-lg">
+      <div class="w-full mb-6 md:w-1/2">
         <div class="flex items-center">
           <svg
             fill="000"
-            viewbox="0 0 102 102"
             height="102"
             width="102"
           >
@@ -19,8 +18,8 @@
           </svg>
           <div class="ml-6">
             <div class="flex items-center mb-4">
-              <h2 class="text-4xl font-semibold mr-4">Jordi Hales</h2>
-              <p class="uppercase bg-gray-100 px-2 rounded-full border-solid border-secondary border text-xs">Hobby</p>
+              <h2 class="text-xl md:text-4xl font-semibold mr-4">Jordi Hales</h2>
+              <span class="hidden md:block uppercase bg-gray-100 px-2 rounded-full border-solid border-secondary border text-xs">Hobby</span>
             </div>
             <p class="uppercase text-primary text-xs mb-2">Git Integration</p>
             <div class="flex items-center">
@@ -41,9 +40,9 @@
           </div>
         </div>
       </div>
-      <div class="w-1/2">
-        <div class="flex justify-end">
-          <button class="text-sm text-primary border-solid border-secondary border rounded-md px-6 py-2 mr-6">Invite Team</button>
+      <div class="w-full md:w-1/2">
+        <div class="flex justify-center space-x-6 md:justify-end">
+          <button class="text-sm text-primary border-solid border-secondary border rounded-md px-6 py-2">Invite Team</button>
           <button class="text-sm text-white bg-black border-solid border-black border rounded-md px-6 py-2">Import Project</button>
         </div>
       </div>

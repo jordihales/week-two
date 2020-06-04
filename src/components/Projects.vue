@@ -1,8 +1,8 @@
 <template>
   <div class="pb-12">
     <div class="container max-w-screen-lg">
-      <div class="relative flex">
-        <div class="w-1/2">
+      <div class="relative flex flex-wrap">
+        <div class="w-full md:w-1/2">
           <div class="card bg-white rounded-md -mt-8">
             <div class="flex items-center relative">
               <h2 class="font-semibold text-xl p-6">project-one</h2>
@@ -144,10 +144,10 @@
             </div>
           </div>
         </div>
-        <div class="w-1/2">
-          <div class="ml-24">
+        <div class="w-full md:w-1/2 py-12 md:py-0">
+          <div class="md:ml-24">
             <div>
-              <h2 class="text-sm font-semibold -mt-8">Recent Activity</h2>
+              <h2 class="text-center md:text-left text-2xl md:text-sm font-semibold md:-mt-8">Recent Activity</h2>
             </div>
             <div class="mt-4 py-6 border-b flex items-center">
               <div class="mr-4">
